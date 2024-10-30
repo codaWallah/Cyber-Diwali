@@ -47,9 +47,9 @@ $(document).ready(function () {
       var text =
         "HELLO, *" +
         userName +
-        "* HAVE SEND A SPECIAL GIFT FOR YOU, *open this, enter your name, and see magic!* and don't forget *" +
+        "* HAVE SEND A SPECIAL GIFT FOR YOU, *open this, enter your name, and see magic!* and don't forget to Follow Our Programmer and *" +
         userName +
-        "* is the first one doing this-->";
+        "* is the doing this-->";
       var url = $(this).attr("data-link");
       var message = encodeURIComponent(text) + " - " + encodeURIComponent(url);
       var whatsapp_url = "whatsapp://send?text=" + message;
